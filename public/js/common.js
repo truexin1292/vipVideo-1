@@ -121,7 +121,10 @@ $("#doLogin").on('click',function () {
 
 function checkLogin() {
     if(isLogin==""){
-        mdui.alert('请先登录!','错误');
+        mdui.alert('请先登录!','错误', function(){
+            var inst = new mdui.Dialog('#dialog-login');
+            inst.open();
+        });
         return false;
     }else{
         return true;

@@ -61,9 +61,7 @@
             return false;
         }
         document.getElementById("form1").submit();
-    })
-
-
+    });
 </script>
 </body>
 </html>

@@ -21,11 +21,11 @@
         </div>
         </div>
         <div class="mdui-collapse-item mdui-collapse-item-open">
-            <a href="http://vip.o11o.cc/chatroom">
-            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">view_carousel</i>
-                <div class="mdui-list-item-content">聊天室</div>
-            </div>
+            <a href="javascript:void(0);" onclick="goLastWatch('http://vip.o11o.cc/chatroom')">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">view_carousel</i>
+                    <div class="mdui-list-item-content">聊天室</div>
+                </div>
             </a>
         </div>
         <div class="mdui-collapse-item ">

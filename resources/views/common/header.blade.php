@@ -12,8 +12,6 @@
         @endif
     </div>
 </div>
-
-
 <div class="mdui-dialog" id="dialog-login">
     <div class="mdui-dialog-title">登录</div>
     <div class="mdui-dialog-content">
@@ -49,7 +47,7 @@
 
                 <label class="mdui-textfield-label">验证码</label>
                 <input class="mdui-textfield-input" type="text" id="code" name="code" style="width: 30%;">
-                <img src="{{ URL('captcha') }}" id="img" alt="验证码" title="刷新图片"  height="40" id="img" border="0" style="margin-top: -34px;margin-left: 32%" onclick="javascript:this.src='captcha'+'?'+Math.random()">
+                <img src="{{ URL('captcha') }}"  alt="验证码" title="刷新图片"  height="40" id="img" border="0" style="margin-top: -34px;margin-left: 32%" onclick="javascript:this.src='captcha'+'?'+Math.random()">
 
         </div>
         <p><button class="mdui-btn mdui-ripple mdui-text-color-pink" id="login">已有账号？立即登录</button></p>
